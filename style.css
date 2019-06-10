@@ -1,0 +1,77 @@
+body {
+    background: rgb(29, 31, 33);
+    font-family: "Montserrat";
+    margin: 0px;
+}
+
+
+.square {
+    width: 30%;
+    background: gray;
+    float: left;
+    margin: 1.666666%;
+    padding-bottom: 30%;
+    border-radius: 20px;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #3b3b5f;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+
+#stripe {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 7.844px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+#reset,
+.difficulty {
+    border: 0px;
+    background: transparent;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+
+
+}
+
+#reset:hover,
+.difficulty:hover {
+    background-color: black;
+    color: white;
+}
+
+#reset:focus,
+.difficulty:focus {
+    outline: none;
+}
+
+#status {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
